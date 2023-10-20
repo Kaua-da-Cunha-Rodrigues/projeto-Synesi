@@ -7,6 +7,9 @@
     }
 }
 @media (max-width: 420px){
+    body{
+        margin-bottom: 30px;
+    }
     .botoes{
         display: block;
     }
