@@ -1,0 +1,77 @@
+@font-face {
+    font-family: 'Pattanakarn'; 
+    src: url('../fonts/Pattanakarn\ Bold.otf') format("opentype"); 
+    font-weight: bold; 
+    font-style: normal;
+}
+body {
+    display: flex;
+    justify-content: center;
+    max-width: 980px;
+    height: 95vh;
+    margin: 0 auto;
+    padding-top: 32px;
+    font-family: "Poppins";
+    font-size: 1.5em;
+    background-color: #242424;
+    color: white;
+    transition: 0.2s;
+}
+
+.container {
+    text-align: center;
+}
+
+.logo {
+    width: 150px; 
+    border-radius: 50%;
+}
+
+h1 {
+    margin: 5px 0 0 0;
+    font-family: 'Pattanakarn', sans-serif;
+    letter-spacing: 5px;
+    font-size: 1.5em;
+}
+p{
+    font-size: 0.8em;
+    margin: 5px 0 0 0;
+}
+.botoes {
+    margin-top: 20px;
+    display: flex;
+}
+.botaoMaior{
+    display: block;
+}
+.botao{
+    margin: 20px 10px;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    background: linear-gradient(to right, orangered, orange);
+    color: white;
+    text-decoration: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.botao h2{
+    font-size: 1em;
+}
+.botao:hover{
+    text-decoration: underline;
+    transform: scale(1.05);
+    transition: 0.2s;
+    border: 2px solid white;
+}
+.botao.maior{
+    width: 460px;
+}
+.botao img {
+    vertical-align: middle;
+    margin-right: 10px;
+    width: 40px;
+}
