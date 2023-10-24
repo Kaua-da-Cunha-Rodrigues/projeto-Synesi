@@ -1,6 +1,6 @@
 @media (max-width: 520px){
     body{
-        margin-bottom: 30px;
+        margin-bottom: 40px;
     }
     .botao{
         width: 150px;
@@ -11,7 +11,7 @@
 }
 @media (max-width: 420px){
     body{
-        margin-bottom: 30px;
+        padding: 40px;
     }
     .botoes{
         display: block;
