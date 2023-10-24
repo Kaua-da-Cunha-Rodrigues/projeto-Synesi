@@ -1,4 +1,7 @@
 @media (max-width: 520px){
+    body{
+        margin-bottom: 30px;
+    }
     .botao{
         width: 150px;
     }    
